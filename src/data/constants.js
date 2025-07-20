@@ -7,6 +7,7 @@ import Doctor from "../images/Projects/Doctor.png";
 import Spyware from "../images/Projects/Spyware.png";
 import SimplePortfolio from "../images/Projects/SimplePortfolio.png";
 import portfolio from "../images/Projects/portfolio.png";
+import Sign from "../images/Projects/Sign.png";
 
 export const Bio = {
   name: "Saad Ansari",
@@ -18,7 +19,7 @@ export const Bio = {
   description:
     "I am a dynamic, adaptable professional constantly seeking new challenges. Driven by a passion for learning and dedication to excellence, I tackle each project with enthusiasm and a forward-thinking mindset. Let's connect and make great ideas happen together.",
   github: "https://github.com/Ansari-Saad-111",
-  resume: "https://drive.google.com/file/d/15XacGn4crRIoVfr67sVq_U2w5ef_bLXw/view",
+  resume: "https://drive.google.com/file/d/19yX8Qko9oKjxrr6HglXAzc8CyFlKSt4-/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/saad-ansari-0b9277230/",
   insta: "https://www.instagram.com/_saad_111_/",
   twitter: "https://x.com/AnsariSaad111",
@@ -28,6 +29,11 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
+      {
+        name: "Bootstrap",
+        image:
+          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      },
       {
         name: "React JS",
         image:
@@ -47,11 +53,6 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
     ],
   },
   {
@@ -63,16 +64,6 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
       {
-        name: "C",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-      },
-      {
-        name: "C++",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
-      },
-      {
         name: "Python",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -82,7 +73,11 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-
+      {
+        name: "C",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+      },
     ],
   },
   {
@@ -130,8 +125,8 @@ export const education = [
     id: 0,
     img: EngClgLogo,
     name: "Matoshri College of Engineering and Research Centre, Nashik",
-    date: "2021 - 2025",
-    grade: "7.50 CGPA",
+    date: "Dec 2021 - June 2025",
+    grade: "7.53 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Information Technology at Matoshri College of Engineering and Research Centre, Nashik. I have completed 6 semesters and have a CGPA of 7.50. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor in Engineering - BE, Information Technology",
   },
@@ -158,6 +153,26 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Sign Language Recognition, Translation and Video Generation System",
+    description:
+      "Worked in a team of four to develop a real-time sign language recognition web application using OpenCV, YOLO and CNN to accurately detect and classify hand gestures. Enabled users to upload and train custom hand sign gestures via webcam, storing them in a database for dynamic model updates. Integrated voice and subtitle to translate recognized signs into spoken and written English. Built a user-friendly frontend with HTML and CSS for gesture capture, training, and live prediction interfaces. Built a data management project to store contact and other information for a long period of time, with easy access. An error-free, reliable, and fast management system.",
+    image: Sign,
+    tags: [
+      "Python",
+      "Django",
+      "OpenCV",
+      "YOLO",
+      "SQLite",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    category: "web app",
+    github: "https://github.com/Ansari-Saad-111/Sign-Language-Recognition-Translation-and-Video-Generation",
+    webapp: "https://github.com/Ansari-Saad-111/Sign-Language-Recognition-Translation-and-Video-Generation",
+  },
+  {
+    id: 1,
     title: "Contact Management System",
     description:
       "Built a data management project to store contact and other information for a long period of time, with easy access. An error-free, reliable, and fast management system.",
@@ -170,7 +185,7 @@ export const projects = [
     webapp: "https://github.com/Ansari-Saad-111/Contact-management-system",
   },
   {
-    id: 1,
+    id: 2,
     title: "Doctors Appointment System",
     description:
       "Designed a website portal for organizing patient information and appointments with doctors, allowing users to easily check or cancel appointments.",
@@ -186,7 +201,7 @@ export const projects = [
     webapp: "https://github.com/Ansari-Saad-111/Doctors-Appointment-System",
   }, 
   {
-    id: 2,
+    id: 3,
     title: "Javascript Portfolio",
     description:
       "Portfolio website include a preloader animation, navbar behavior handling, text cycling animations, skill bar progress animations, scroll reveal animations, and a light/dark mode toggle. The codebase consists of an HTML file for structure, a CSS file for styling and animations, a JavaScript file for interactivity, and an additional CSS file for the preloader animation styles. The website is designed with responsive layouts and incorporates various sections showcasing the developer's skills, projects, and contact information.",
@@ -202,7 +217,7 @@ export const projects = [
     webapp: "https://ansari-saad-111.github.io/Javascript-Portfolio/",
   },
   {
-    id: 2,
+    id: 4,
     title: " Spyware Advanced",
     description:
       "Developed a responsive website for Spyware Advanced Computer Centre. It features a carousel showcasing courses, an about section, detailed course offerings with images and descriptions, and contact information. The site uses HTML5, CSS3, and Bootstrap 5 for layout and styling, with some custom animations and interactivity.",
@@ -217,7 +232,7 @@ export const projects = [
     webapp: "https://ansari-saad-111.github.io/Spyware-Advance/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Simple Portfolio",
     description:
       "Personal simple portfolio website built with HTML, CSS, and Bootstrap, showcasing educational background, skills, services, and contact details with a responsive design.",
