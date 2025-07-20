@@ -19,7 +19,11 @@ export const Bio = {
   description:
     "I am a dynamic, adaptable professional constantly seeking new challenges. Driven by a passion for learning and dedication to excellence, I tackle each project with enthusiasm and a forward-thinking mindset. Let's connect and make great ideas happen together.",
   github: "https://github.com/Ansari-Saad-111",
+<<<<<<< HEAD
   resume: "https://drive.google.com/file/d/19yX8Qko9oKjxrr6HglXAzc8CyFlKSt4-/view?usp=drive_link",
+=======
+  resume: "https://drive.google.com/file/d/1U3wpjsYXXI-r1KR0642gw6QO3xxyZBc-/view",
+>>>>>>> 7f9115053ca1994b20165a62cd7e6a033558b2c6
   linkedin: "https://www.linkedin.com/in/saad-ansari-0b9277230/",
   insta: "https://www.instagram.com/_saad_111_/",
   twitter: "https://x.com/AnsariSaad111",
